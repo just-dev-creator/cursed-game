@@ -2,5 +2,5 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: chmod +x setup.sg && ./setup.sh
+  - init: chmod +x setup.sh && ./setup.sh
     command: python3 main.py
