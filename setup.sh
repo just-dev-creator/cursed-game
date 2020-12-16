@@ -4,4 +4,4 @@
 pip3 install pygame
 
 # Confirm finish
-echo("Setup completed! ")
+echo('Setup completed! ')
