@@ -1,0 +1,3 @@
+tasks:
+  - init: ./setup.sh
+    command: python3 main.py
