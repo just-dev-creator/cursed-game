@@ -4,3 +4,9 @@ image:
 tasks:
   - init: chmod +x setup.sh && ./setup.sh
     command: python3 main.py
+
+ports:
+  - port: 5900
+    onOpen: ignore
+  - port: 6080
+    onOpen: open-preview
